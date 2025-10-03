@@ -73,7 +73,7 @@ mentions:[{id:event.senderID, tag:nname}],
 			case "message_reaction":
 				onReaction();
         if(event.reaction == "🐼"){
-  if(event.userID == "61580624560609","61561988701109"){
+  if(event.userID == "61580624560609","61561988701109","61564137844381","61578831606285"){
 api.removeUserFromGroup(event.senderID, event.threadID, (err) => {
                 if (err) return console.log(err);
               });
